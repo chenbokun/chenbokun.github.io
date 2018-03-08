@@ -71,7 +71,11 @@ deploy:
   type: git
   repo: ssh://git@github.com/chenbokun/chenbokun.github.io.git
   branch: master
+# hexo-admin authentification
 admin:
   username: chenbokun
-  password_hash: c3134ed3eab7511dc955edca9ec5aeda
-  secret: a secret something
+  password_hash: $2a$10$99U0Uie3gRlsViMwV3snVOJic3vcz/8wV4/tbSEs.qaghN5USMhi6
+  secret: my super secret phrase
+metadata:
+  author_id: Chen bokun
+  language: Chinese
