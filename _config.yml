@@ -71,3 +71,7 @@ deploy:
   type: git
   repo: ssh://git@github.com/chenbokun/chenbokun.github.io.git
   branch: master
+admin:
+  username: chenbokun
+  password_hash: c3134ed3eab7511dc955edca9ec5aeda
+  secret: a secret something
