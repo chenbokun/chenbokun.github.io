@@ -1,0 +1,128 @@
+.brief-report {
+  position: relative;
+  background-image: url('/images/BJ.png');
+  color: #fff;
+  padding: 6rem 0;
+  font-family: HYQiHeiX2, sans-serif;
+}
+.brief-report .title-wrap {
+  position: relative;
+  text-align: center;
+  margin-bottom: 4.133333rem;
+}
+.brief-report .title-wrap .production-title {
+  font-size: 3.29rem;
+  padding-top: 1.5rem;
+  text-shadow: 0 0 1.5rem #b09cc2, 0 0 1.5rem #b09cc2;
+}
+.brief-report .title-wrap .production-bg {
+  width: 24rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.brief-report .container {
+  width: 60.533333rem;
+  height: 10.2rem;
+  background-color: rgba(90, 90, 92, 0.3);
+  border-radius: 10.2rem;
+  margin: 0 auto 1.4rem;
+  padding-left: 2.966667rem;
+  display: flex;
+  align-items: center;
+}
+.brief-report .container .wrap {
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 10rem;
+  min-width: 39.8rem;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brief-report .container .wrap .left_content {
+  display: inline-block;
+  font-size: 3.333333rem;
+}
+.brief-report .container .wrap .right_content {
+  display: inline-block;
+  text-align: right;
+  font-size: 0;
+}
+.brief-report .container .wrap .right_content .num {
+  font-size: 5.657333rem;
+  position: relative;
+  top: .5rem;
+}
+.brief-report .container .wrap .right_content .unit {
+  font-size: 2.329333rem;
+  margin-left: .5rem;
+  margin-right: 2.166667rem;
+  font-weight: 300;
+}
+.brief-report .container .wrap:after {
+  content: '';
+  position: absolute;
+  width: .1rem;
+  top: 3rem;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+  height: 6rem;
+}
+.brief-report .container .text {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 1.833333rem;
+  font-size: 2.333333rem;
+  font-weight: 300;
+}
+.brief-report .container .text .percent {
+  display: inline-block;
+  width: 10rem;
+  text-align: right;
+  color: #6AB834;
+  font-weight: 400;
+}
+.brief-report .container .text .red {
+  color: #B7332C;
+}
+.brief-report .container .double {
+  display: inline-block;
+}
+.brief-report .container .double .text {
+  display: block;
+}
+.brief-report .container .double .compared {
+  margin-top: 1rem;
+}
+.brief-report .wrap-percent {
+  width: 60.533333rem;
+  height: 10.2rem;
+  line-height: 10.2rem;
+  text-align: center;
+  background-color: rgba(90, 90, 92, 0.3);
+  border-radius: 10.2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  box-sizing: border-box;
+}
+.brief-report .wrap-percent .num-percent {
+  font-size: 5.657333rem;
+  margin-left: 1.533333rem;
+  vertical-align: top;
+}
+.brief-report .wrap-percent .unit-percent {
+  margin-left: .5rem;
+  vertical-align: middle;
+}
+.brief-report .describe {
+  margin-top: 2.6rem;
+  margin-bottom: 4.433333rem;
+  font-size: 1.333333rem;
+  text-align: center;
+  opacity: .6;
+}
